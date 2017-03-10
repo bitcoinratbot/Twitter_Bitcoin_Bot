@@ -42,7 +42,7 @@ cd tweepy
 sudo python setup.py install
 ```
 
-## You have too also execute the .py file like you would with a bash script
+## You have to also execute the .py file like you would with a bash script
 
 ### sudo chmod +x ./hello.py ./code.py ./newupdate.py ./block.py
 
