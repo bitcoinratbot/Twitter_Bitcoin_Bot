@@ -12,10 +12,10 @@ myproxy = bitcoin.rpc.Proxy()
 block_info = myproxy.getblock(myproxy.getblockhash(myproxy.getblockcount()))
 
 #Setting these as variables will make them easier for future edits
-app_key =  'YHmHYHe9Yy13vE3ToRr9f3OVE'
-app_secret = 'QVo1ywyQVlMV1G1kV04LNIUJWaHbz4FMwNCV7i40yF2X4aY1tw'
-oauth_token ='832949363005652992-BeOBA9wBmjuHxqAIXgBweCbZmxuCCU8'
-oauth_token_secret = 'gZjspV2Ph5lEMNQbsJ9lgrt54GbCfb8nsCjldJUQvfGYq'
+app_key =  ''
+app_secret = ''
+oauth_token =''
+oauth_token_secret = ''
 
 #Prepare your twitter, you will need it for everything
 twitter = Twython(app_key, app_secret, oauth_token, oauth_token_secret)
